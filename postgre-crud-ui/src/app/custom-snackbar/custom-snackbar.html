@@ -1,0 +1,10 @@
+<div class="toast-container">
+  <mat-icon class="icon" [ngClass]="data.type">
+    {{ data.type === 'error' ? 'error' : 'check_circle' }}
+  </mat-icon>
+
+  <div class="content">
+    <div class="title">{{ data.title }}</div>
+    <div class="message">{{ data.message }}</div>
+  </div>
+</div>

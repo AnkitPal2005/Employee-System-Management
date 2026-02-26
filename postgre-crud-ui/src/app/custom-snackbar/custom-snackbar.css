@@ -1,0 +1,29 @@
+.toast-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  min-width: 320px;
+}
+
+.icon {
+  font-size: 24px;
+}
+
+.success {
+  color: #4caf50;
+}
+
+.error {
+  color: #f44336;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.message {
+  font-size: 13px;
+  opacity: 0.8;
+}

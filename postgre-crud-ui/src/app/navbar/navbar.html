@@ -1,0 +1,22 @@
+<mat-toolbar color="primary" class="nav">
+
+  <!-- <span class="logo">Employee System</span> -->
+
+  <!-- <span class="spacer"></span> -->
+
+  <a mat-button
+  id="ds"
+     routerLink="/dashboard"
+     routerLinkActive="active-link"
+     [routerLinkActiveOptions]="{ exact: true }">
+    Dashboard
+  </a>
+
+  <a mat-button
+  id="me"
+     routerLink="/employees"
+     routerLinkActive="active-link">
+    Manage Employees
+  </a>
+
+</mat-toolbar>

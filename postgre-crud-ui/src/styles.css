@@ -1,0 +1,30 @@
+/* Form field ko thoda airy bana do */
+.mat-mdc-form-field {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+/* Label ko thoda upar spacing do */
+.mat-mdc-floating-label {
+  transform: translateY(-1.9em) scale(0.76) !important;
+}
+
+/* Input height comfortable karo */
+.mat-mdc-text-field-wrapper {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  background: linear-gradient(135deg, #eef2f7, #ffffff);
+}
+.success-snackbar {
+  background: #4caf50 !important;
+  color: white !important;
+  font-weight: 500;
+}
+
+.mat-mdc-snack-bar-container {
+  border-radius: 8px !important;
+}

@@ -1,0 +1,71 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+ .page {
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+.header h2 {
+  font-weight: 600;
+  color: #3f51b5;
+}
+button[mat-raised-button] {
+  border-radius: 8px;
+}
+.mat-mdc-table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.mat-mdc-header-row {
+  background: #f6f8fb;
+}
+
+.mat-mdc-row:hover {
+  background: #f1f5ff;
+}
+#Add{
+position: absolute;
+right: 1430px;
+top: 140px;
+height: 50px;
+}
+.container {
+  padding: 24px;
+}
+
+mat-card {
+  padding: 16px;
+}
+#heading{
+  margin: auto;
+  font-size: xx-large;
+}
+/* .bulk-bar{
+  position: absolute;
+  right: 100px;
+  top: 150px;
+} */
+ .bulk-bar {
+  background: #fff3e0;
+  border: 1px solid #ffcc80;
+  padding: 12px 16px;
+  margin: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+#ds{
+  margin-left: 15px;
+}

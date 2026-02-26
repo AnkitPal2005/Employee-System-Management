@@ -1,0 +1,29 @@
+<h2 mat-dialog-title>
+  {{ isEditMode ? 'Edit Employee' : 'Add Employee' }}
+</h2>
+
+<mat-dialog-content class="content">
+
+<mat-form-field appearance="outline" class="field">
+  <!-- <mat-label>Name</mat-label> -->
+  <input matInput [(ngModel)]="data.name" placeholder="Enter The Name"/>
+</mat-form-field>
+
+  <mat-form-field appearance="outline" class="field">
+    <!-- <mat-label>Email</mat-label> -->
+    <input matInput [(ngModel)]="data.email" placeholder="Enter The Email">
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" class="field">
+    <!-- <mat-label>Salary</mat-label> -->
+    <input matInput type="number" [(ngModel)]="data.salary" placeholder="Enter The Salary">
+  </mat-form-field>
+
+</mat-dialog-content>
+
+<mat-dialog-actions align="end" class="actions">
+  <button mat-button (click)="close()">Cancel</button>
+  <button mat-raised-button color="primary" (click)="save()">
+  {{ isEditMode ? 'Update' : 'Save' }}
+</button>
+</mat-dialog-actions>
